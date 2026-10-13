@@ -68,7 +68,7 @@ voice-controlled-robot/
 - **Hệ điều hành:** Ubuntu 22.04 LTS (x86_64)
 - **Môi trường Python:** Python 3.10 (.venv)
 - **Frameworks & Thư viện:** FastAPI, Uvicorn, WebSockets, Pytest, Pydantic
-- **Simulator:** Webots (phiên bản khuyến nghị R2023b / R2025a)
+- **Simulator:** Webots R2025a (Cài đặt qua Cyberbotics APT tại `/usr/local/webots`)
 
 ### Kích hoạt môi trường ảo:
 ```bash
