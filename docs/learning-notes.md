@@ -19,7 +19,7 @@
 ### 2. Quan sát ban đầu về mô phỏng Webots (Scene Tree & e-puck)
 *(Ghi lại khi mở world e-puck mẫu trong Webots)*
 1. **Robot Node (`E-puck` PROTO):** Đại diện cho toàn bộ thực thể robot trong thế giới vật lý 3D, chứa các thông số vật lý (mass, translation, rotation).
-2. **Motor Nodes (Bánh xe):** Robot hai bánh vi sai gồm:
+2. **Motor Nodes (B  ánh xe):** Robot hai bánh vi sai gồm:
    - `left wheel motor` (gắn ở bánh trái)
    - `right wheel motor` (gắn ở bánh phải)
    - Được điều khiển ở chế độ vận tốc (Velocity mode) bằng cách đặt position vô hạn `setPosition(float('inf'))` rồi gọi `setVelocity(rad/s)`.

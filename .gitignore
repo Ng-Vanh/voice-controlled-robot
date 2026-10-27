@@ -30,3 +30,6 @@ logs/
 .idea/
 .DS_Store
 Thumbs.db
+.agents
+.claude
+/agent
